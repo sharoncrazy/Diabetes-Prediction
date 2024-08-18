@@ -2,7 +2,7 @@ import numpy as np
 import pickle 
 import streamlit as st 
 
-loaded_model = pickle.load(open('diabetes model.sav','rb'))
+loaded_model = pickle.load(open('C:/kaggle datasets/diabetes/trained model.sav','rb'))
 
 def diabetes_prediction(input):
     input = (1,1,1,40,1,0,0,0,0,1,0,1,0,5,18,15,1,0,9)
